@@ -1,0 +1,311 @@
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+.btn-red{
+    padding: 8px 18px;
+    background-color: #910a01;
+    border: none;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+.btn-red:hover{
+    color: darkorange;
+}
+
+/* Navbar style ====================== */
+ .nav-desc h4{
+    font-weight: 600;
+    color: #910a01;
+    padding: 0;
+    margin: 20px 2px;
+}
+
+.not-alert{
+    background-color: #fff;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-left: 4px solid #910a01;
+
+}
+.not-alert h6 span{
+    color: #f6c1bc;
+    font-size: 18px;
+}
+.not-alert h6{
+    padding: 0;
+    margin: 0;
+    color: #910a01;
+}
+.not-alert p{
+    padding: 0 24px;
+    margin: 0;
+    font-size: 14px;
+}
+.flex-fill input{
+    border: none;
+    font-size: 12px;
+    width: 200px;
+    padding: 4px 8px;
+}
+.flex-fill input:hover{
+    box-shadow: none;
+    outline: none;
+}
+.flex-fill .dateinput{
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.flex-fill .dateinput:focus{
+    box-shadow: none;
+    outline: none;
+}
+.flex-fill .bg-search{
+    background-color: #fff;
+    padding: 10px 4px;
+    border: 1px solid #cbcbcb;
+}
+.btn-t-search{
+  border: none;
+    background-color: #b20d01;
+    padding: 4px 14px;
+    color: #f2f2f2;
+    font-size: 14px;
+    border-radius: 4px;  
+}
+.btn-ticket{
+    border: none;
+    background-color: #b20d01;
+    padding: 6px 18px;
+    color: #f2f2f2;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.btn-ticket:hover{
+    background-color: #910a01;
+}
+.tket-list{
+    background-color: #ffffff;
+    padding: 0 28px;
+}
+.form-title{
+    margin-bottom: 20px;
+}
+.form-title h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.form-title p{
+    font-size: 14px;
+}
+
+/* Navbar End ====================== */
+
+*{
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+}
+
+.form-class{
+    padding: 14px 18px;
+}
+.subCat{
+    border: 2px dotted rgb(250, 202, 202);
+    padding: 4px 8px;
+}
+.container{
+    padding: 0;
+    background-color: #ffffff;
+}
+.jumbotronss{
+    padding: 42px 32px;
+    background-image: url(../image/backgro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+}
+
+.jumbotronss h2,.tree-column h4, .tree-column h5{
+    font-weight: 300;
+}
+.jumbotronss h2, .jumbotronss p{
+    color: #f2f2f2;
+}
+
+.search-box{
+    border: 1px solid #cbcbcb; 
+    padding: 8px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.search-box button{
+    margin-left: 4px;
+    border: none;
+    padding: 4px 30px;
+    background-color: #971810;
+    color: #ffffff;
+}
+
+.search-box input{
+    border: none;
+}
+.search-box input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.jumbotronss  nav{
+    padding-left: 20px;
+}
+.category{
+    text-align: center;
+    padding: 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+.btn-cat{
+    border: 2px solid #aaa;
+    padding: 10px 32px;
+    width: 10rem;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #aaa;
+}
+.btn-cat:hover{
+     border: 2px solid #910a01;
+    background-color: #ffffff;
+    color: #910a01;
+}
+.btn-act{
+    border: 2px solid #910a01;
+    color: #910a01;
+}
+
+nav .breadcrumb li{
+    color: #ddd;
+    font-size: 14px;
+}
+nav .breadcrumb li a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.tree-column{
+    padding: 4rem 3rem;
+}
+.tree-column p{
+    color: #000000;
+}
+
+.faq-section{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+   
+}
+
+.faq-section h4{
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.card-container{
+    width: 40%;
+    margin: 0 auto;
+}
+.card-container h5{
+    font-weight: 300;
+    text-align: center;
+}
+  
+.sub-nav{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 8px;
+
+}
+.sub-nav ul{
+   background-color: transparent;
+    
+}
+.nav .nav-item{
+    margin-right: 14px;
+}
+.nav .nav-item a{
+    color: #000;
+    font-size: 14px;
+}
+.nav .nav-item .activ{
+    background-color: #EBECF2;
+    color: #971810;
+}
+/* ------------  Table style --------*/
+
+/* ------------  Table style clode --------*/
+.contact{
+    padding-top: 28px;
+}
+.contact .talk{
+    margin: 0 9rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+.contact .card{
+    padding: 0;
+    margin: 0 8px;
+}
+.quest-more{
+    width: 60%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EBECF2;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.quest-more button{
+    padding: 8px 20px;
+    color: #fff;
+}
+.footindex{
+    padding: 14px 32px;
+    background-color: #910a01;
+}
+.footindex p,a{
+    color: #000000;
+    font-size: 12px;
+    color: #f2f2f2;
+}
+.delox div{
+    background-color: #910a01;
+    padding: 20px;
+    margin: 12px;
+    
+}
+
+/* Media queries for login */
+
+@media screen and (max-width: 992) {
+ 
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .nav-desc h4{
+        font-weight: 600;
+        font-size: 14px;
+    }
+.flex-fill{
+    margin-bottom: 18px;
+}
+}
